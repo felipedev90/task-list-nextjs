@@ -6,7 +6,7 @@ describe("Página principal", () => {
     const pagina = await Home();
     render(pagina);
 
-    const titulo = screen.getByText("Tarefas:");
+    const titulo = screen.getByText("Adicionar uma nova tarefa:");
     const tarefa1 = screen.getByText("Estudar Next.js");
     const tarefa2 = screen.getByText("Aprender Jest");
     const tarefa3 = screen.getByText("Criar Portifólio");
