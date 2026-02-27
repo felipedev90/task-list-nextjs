@@ -33,7 +33,7 @@ export default function TaskList({ tarefasIniciais }: Props) {
           </li>
         ))}
       </ul>
-      <p className="text-base font-bold border border-blue-900 bg-blue-300 mt-4 text-gray-900 p-3 rounded">
+      <p className="font-bold border border-blue-900 bg-blue-200 mt-4 text-gray-900 p-3 rounded">
         Total de tarefas: {total}
       </p>
     </div>
