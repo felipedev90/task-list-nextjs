@@ -73,7 +73,7 @@ npm test
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/seu-usuario/task-list-nextjs.git
+git clone https://github.com/felipedev90/task-list-nextjs.git
 
 # Entrar na pasta
 cd task-list-nextjs
