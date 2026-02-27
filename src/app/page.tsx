@@ -19,8 +19,8 @@ export default async function Home() {
   const tarefas = await buscarTarefas();
 
   return (
-    <div>
-      <h2>Tarefas:</h2>
+    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+      <h2 className="text-2xl font-bold mb-4">Tarefas:</h2>
       <TaskList tarefasIniciais={tarefas} />
     </div>
   );
